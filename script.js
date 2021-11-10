@@ -1834,3 +1834,17 @@ Daysb.addEventListener('click', () => {
     elevenB7.textContent = raspSb.elevenB.seventhStr;
     elevenB8.textContent = raspSb.elevenB.eightStr;
 });
+
+let block = document.querySelector('body');
+let menyHide = document.querySelector('.menu-main');
+let raspHide = document.querySelector('.Rasp');
+let tablHide = document.getElementById('tabl');
+console.log(tablHide);
+
+function changeBgImg() {
+    block.style.backgroundImage = "url('imgs/stop.png')";
+    menyHide.style.display = 'none';
+    raspHide.style.display = 'none';
+    tablHide.style.display = 'none';
+}
+// changeBgImg();
